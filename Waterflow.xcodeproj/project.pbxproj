@@ -18,6 +18,31 @@
 		932464D617A20D4C00F73CAA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 932464D517A20D4C00F73CAA /* Default-568h@2x.png */; };
 		932464D917A20D4C00F73CAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932464D817A20D4C00F73CAA /* ViewController.m */; };
 		932464DC17A20D4C00F73CAA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932464DA17A20D4C00F73CAA /* ViewController.xib */; };
+		932464EA17A20D7500F73CAA /* TMQuiltView.m in Sources */ = {isa = PBXBuildFile; fileRef = 932464E517A20D7500F73CAA /* TMQuiltView.m */; };
+		932464EB17A20D7500F73CAA /* TMQuiltViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 932464E717A20D7500F73CAA /* TMQuiltViewCell.m */; };
+		932464EC17A20D7500F73CAA /* TMQuiltViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932464E917A20D7500F73CAA /* TMQuiltViewController.m */; };
+		932464FD17A20D8E00F73CAA /* EGORefreshTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 932464EF17A20D8E00F73CAA /* EGORefreshTableFooterView.m */; };
+		932464FE17A20D8E00F73CAA /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 932464F117A20D8E00F73CAA /* EGORefreshTableHeaderView.m */; };
+		932464FF17A20D8E00F73CAA /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 932464F517A20D8E00F73CAA /* blackArrow.png */; };
+		9324650017A20D8E00F73CAA /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 932464F617A20D8E00F73CAA /* blackArrow@2x.png */; };
+		9324650117A20D8E00F73CAA /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 932464F717A20D8E00F73CAA /* blueArrow.png */; };
+		9324650217A20D8E00F73CAA /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 932464F817A20D8E00F73CAA /* blueArrow@2x.png */; };
+		9324650317A20D8E00F73CAA /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 932464F917A20D8E00F73CAA /* grayArrow.png */; };
+		9324650417A20D8E00F73CAA /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 932464FA17A20D8E00F73CAA /* grayArrow@2x.png */; };
+		9324650517A20D8E00F73CAA /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 932464FB17A20D8E00F73CAA /* whiteArrow.png */; };
+		9324650617A20D8E00F73CAA /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 932464FC17A20D8E00F73CAA /* whiteArrow@2x.png */; };
+		9324651217A20DBC00F73CAA /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9324650817A20DBC00F73CAA /* 1.jpeg */; };
+		9324651317A20DBC00F73CAA /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9324650917A20DBC00F73CAA /* 10.jpeg */; };
+		9324651417A20DBC00F73CAA /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9324650A17A20DBC00F73CAA /* 2.jpeg */; };
+		9324651517A20DBC00F73CAA /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9324650B17A20DBC00F73CAA /* 3.jpeg */; };
+		9324651617A20DBC00F73CAA /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9324650C17A20DBC00F73CAA /* 4.jpeg */; };
+		9324651717A20DBC00F73CAA /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9324650D17A20DBC00F73CAA /* 5.jpeg */; };
+		9324651817A20DBC00F73CAA /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9324650E17A20DBC00F73CAA /* 6.jpeg */; };
+		9324651917A20DBC00F73CAA /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9324650F17A20DBC00F73CAA /* 7.jpeg */; };
+		9324651A17A20DBC00F73CAA /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9324651017A20DBC00F73CAA /* 8.jpeg */; };
+		9324651B17A20DBC00F73CAA /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9324651117A20DBC00F73CAA /* 9.jpeg */; };
+		9324651E17A2109F00F73CAA /* TMPhotoQuiltViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9324651D17A2109F00F73CAA /* TMPhotoQuiltViewCell.m */; };
+		9324652017A2111100F73CAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9324651F17A2111000F73CAA /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +62,39 @@
 		932464D717A20D4C00F73CAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		932464D817A20D4C00F73CAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		932464DB17A20D4C00F73CAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		932464E317A20D7500F73CAA /* TMQuiltView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TMQuiltView-Prefix.pch"; sourceTree = "<group>"; };
+		932464E417A20D7500F73CAA /* TMQuiltView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMQuiltView.h; sourceTree = "<group>"; };
+		932464E517A20D7500F73CAA /* TMQuiltView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMQuiltView.m; sourceTree = "<group>"; };
+		932464E617A20D7500F73CAA /* TMQuiltViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMQuiltViewCell.h; sourceTree = "<group>"; };
+		932464E717A20D7500F73CAA /* TMQuiltViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMQuiltViewCell.m; sourceTree = "<group>"; };
+		932464E817A20D7500F73CAA /* TMQuiltViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMQuiltViewController.h; sourceTree = "<group>"; };
+		932464E917A20D7500F73CAA /* TMQuiltViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMQuiltViewController.m; sourceTree = "<group>"; };
+		932464EE17A20D8E00F73CAA /* EGORefreshTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableFooterView.h; sourceTree = "<group>"; };
+		932464EF17A20D8E00F73CAA /* EGORefreshTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableFooterView.m; sourceTree = "<group>"; };
+		932464F017A20D8E00F73CAA /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		932464F117A20D8E00F73CAA /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		932464F217A20D8E00F73CAA /* EGOViewCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOViewCommon.h; sourceTree = "<group>"; };
+		932464F517A20D8E00F73CAA /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		932464F617A20D8E00F73CAA /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		932464F717A20D8E00F73CAA /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		932464F817A20D8E00F73CAA /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		932464F917A20D8E00F73CAA /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		932464FA17A20D8E00F73CAA /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		932464FB17A20D8E00F73CAA /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		932464FC17A20D8E00F73CAA /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		9324650817A20DBC00F73CAA /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		9324650917A20DBC00F73CAA /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+		9324650A17A20DBC00F73CAA /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		9324650B17A20DBC00F73CAA /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		9324650C17A20DBC00F73CAA /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		9324650D17A20DBC00F73CAA /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		9324650E17A20DBC00F73CAA /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		9324650F17A20DBC00F73CAA /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		9324651017A20DBC00F73CAA /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
+		9324651117A20DBC00F73CAA /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
+		9324651C17A2109F00F73CAA /* TMPhotoQuiltViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPhotoQuiltViewCell.h; sourceTree = "<group>"; };
+		9324651D17A2109F00F73CAA /* TMPhotoQuiltViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMPhotoQuiltViewCell.m; sourceTree = "<group>"; };
+		9324651F17A2111000F73CAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9324652017A2111100F73CAA /* QuartzCore.framework in Frameworks */,
 				932464C017A20D4C00F73CAA /* UIKit.framework in Frameworks */,
 				932464C217A20D4C00F73CAA /* Foundation.framework in Frameworks */,
 				932464C417A20D4C00F73CAA /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +115,7 @@
 		932464B317A20D4C00F73CAA = {
 			isa = PBXGroup;
 			children = (
+				9324651F17A2111000F73CAA /* QuartzCore.framework */,
 				932464C517A20D4C00F73CAA /* Waterflow */,
 				932464BE17A20D4C00F73CAA /* Frameworks */,
 				932464BD17A20D4C00F73CAA /* Products */,
@@ -83,11 +143,17 @@
 		932464C517A20D4C00F73CAA /* Waterflow */ = {
 			isa = PBXGroup;
 			children = (
+				9324650717A20DBC00F73CAA /* images */,
+				932464ED17A20D8E00F73CAA /* EGO */,
+				932464F417A20D8E00F73CAA /* Resources */,
+				932464E217A20D7500F73CAA /* TMQuiltView */,
 				932464CE17A20D4C00F73CAA /* AppDelegate.h */,
 				932464CF17A20D4C00F73CAA /* AppDelegate.m */,
 				932464D717A20D4C00F73CAA /* ViewController.h */,
 				932464D817A20D4C00F73CAA /* ViewController.m */,
 				932464DA17A20D4C00F73CAA /* ViewController.xib */,
+				9324651C17A2109F00F73CAA /* TMPhotoQuiltViewCell.h */,
+				9324651D17A2109F00F73CAA /* TMPhotoQuiltViewCell.m */,
 				932464C617A20D4C00F73CAA /* Supporting Files */,
 			);
 			path = Waterflow;
@@ -107,6 +173,72 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		932464E217A20D7500F73CAA /* TMQuiltView */ = {
+			isa = PBXGroup;
+			children = (
+				932464E317A20D7500F73CAA /* TMQuiltView-Prefix.pch */,
+				932464E417A20D7500F73CAA /* TMQuiltView.h */,
+				932464E517A20D7500F73CAA /* TMQuiltView.m */,
+				932464E617A20D7500F73CAA /* TMQuiltViewCell.h */,
+				932464E717A20D7500F73CAA /* TMQuiltViewCell.m */,
+				932464E817A20D7500F73CAA /* TMQuiltViewController.h */,
+				932464E917A20D7500F73CAA /* TMQuiltViewController.m */,
+			);
+			path = TMQuiltView;
+			sourceTree = "<group>";
+		};
+		932464ED17A20D8E00F73CAA /* EGO */ = {
+			isa = PBXGroup;
+			children = (
+				932464EE17A20D8E00F73CAA /* EGORefreshTableFooterView.h */,
+				932464EF17A20D8E00F73CAA /* EGORefreshTableFooterView.m */,
+				932464F017A20D8E00F73CAA /* EGORefreshTableHeaderView.h */,
+				932464F117A20D8E00F73CAA /* EGORefreshTableHeaderView.m */,
+				932464F217A20D8E00F73CAA /* EGOViewCommon.h */,
+				932464F317A20D8E00F73CAA /* LoadMoreDataView */,
+			);
+			path = EGO;
+			sourceTree = "<group>";
+		};
+		932464F317A20D8E00F73CAA /* LoadMoreDataView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoadMoreDataView;
+			sourceTree = "<group>";
+		};
+		932464F417A20D8E00F73CAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				932464F517A20D8E00F73CAA /* blackArrow.png */,
+				932464F617A20D8E00F73CAA /* blackArrow@2x.png */,
+				932464F717A20D8E00F73CAA /* blueArrow.png */,
+				932464F817A20D8E00F73CAA /* blueArrow@2x.png */,
+				932464F917A20D8E00F73CAA /* grayArrow.png */,
+				932464FA17A20D8E00F73CAA /* grayArrow@2x.png */,
+				932464FB17A20D8E00F73CAA /* whiteArrow.png */,
+				932464FC17A20D8E00F73CAA /* whiteArrow@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9324650717A20DBC00F73CAA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9324650817A20DBC00F73CAA /* 1.jpeg */,
+				9324650917A20DBC00F73CAA /* 10.jpeg */,
+				9324650A17A20DBC00F73CAA /* 2.jpeg */,
+				9324650B17A20DBC00F73CAA /* 3.jpeg */,
+				9324650C17A20DBC00F73CAA /* 4.jpeg */,
+				9324650D17A20DBC00F73CAA /* 5.jpeg */,
+				9324650E17A20DBC00F73CAA /* 6.jpeg */,
+				9324650F17A20DBC00F73CAA /* 7.jpeg */,
+				9324651017A20DBC00F73CAA /* 8.jpeg */,
+				9324651117A20DBC00F73CAA /* 9.jpeg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,8 +247,8 @@
 			buildConfigurationList = 932464DF17A20D4C00F73CAA /* Build configuration list for PBXNativeTarget "Waterflow" */;
 			buildPhases = (
 				932464B817A20D4C00F73CAA /* Sources */,
-				932464B917A20D4C00F73CAA /* Frameworks */,
 				932464BA17A20D4C00F73CAA /* Resources */,
+				932464B917A20D4C00F73CAA /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +295,24 @@
 				932464D417A20D4C00F73CAA /* Default@2x.png in Resources */,
 				932464D617A20D4C00F73CAA /* Default-568h@2x.png in Resources */,
 				932464DC17A20D4C00F73CAA /* ViewController.xib in Resources */,
+				932464FF17A20D8E00F73CAA /* blackArrow.png in Resources */,
+				9324650017A20D8E00F73CAA /* blackArrow@2x.png in Resources */,
+				9324650117A20D8E00F73CAA /* blueArrow.png in Resources */,
+				9324650217A20D8E00F73CAA /* blueArrow@2x.png in Resources */,
+				9324650317A20D8E00F73CAA /* grayArrow.png in Resources */,
+				9324650417A20D8E00F73CAA /* grayArrow@2x.png in Resources */,
+				9324650517A20D8E00F73CAA /* whiteArrow.png in Resources */,
+				9324650617A20D8E00F73CAA /* whiteArrow@2x.png in Resources */,
+				9324651217A20DBC00F73CAA /* 1.jpeg in Resources */,
+				9324651317A20DBC00F73CAA /* 10.jpeg in Resources */,
+				9324651417A20DBC00F73CAA /* 2.jpeg in Resources */,
+				9324651517A20DBC00F73CAA /* 3.jpeg in Resources */,
+				9324651617A20DBC00F73CAA /* 4.jpeg in Resources */,
+				9324651717A20DBC00F73CAA /* 5.jpeg in Resources */,
+				9324651817A20DBC00F73CAA /* 6.jpeg in Resources */,
+				9324651917A20DBC00F73CAA /* 7.jpeg in Resources */,
+				9324651A17A20DBC00F73CAA /* 8.jpeg in Resources */,
+				9324651B17A20DBC00F73CAA /* 9.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +326,12 @@
 				932464CC17A20D4C00F73CAA /* main.m in Sources */,
 				932464D017A20D4C00F73CAA /* AppDelegate.m in Sources */,
 				932464D917A20D4C00F73CAA /* ViewController.m in Sources */,
+				932464EA17A20D7500F73CAA /* TMQuiltView.m in Sources */,
+				932464EB17A20D7500F73CAA /* TMQuiltViewCell.m in Sources */,
+				932464EC17A20D7500F73CAA /* TMQuiltViewController.m in Sources */,
+				932464FD17A20D8E00F73CAA /* EGORefreshTableFooterView.m in Sources */,
+				932464FE17A20D8E00F73CAA /* EGORefreshTableHeaderView.m in Sources */,
+				9324651E17A2109F00F73CAA /* TMPhotoQuiltViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +417,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Waterflow/Waterflow-Prefix.pch";
 				INFOPLIST_FILE = "Waterflow/Waterflow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,6 +429,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Waterflow/Waterflow-Prefix.pch";
 				INFOPLIST_FILE = "Waterflow/Waterflow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
