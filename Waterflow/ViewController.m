@@ -26,16 +26,31 @@
 {
     [super viewDidLoad];
 	
-	qtmquitView = [[TMQuiltView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+    if(!qtmquitView)
+        qtmquitView = [[TMQuiltView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
 	qtmquitView.delegate = self;
 	qtmquitView.dataSource = self;
 	
 	[self.view addSubview:qtmquitView];
 	
 	[qtmquitView reloadData];
-	 [self createHeaderView];
+    [self createHeaderView];
 	[self performSelector:@selector(testFinishedLoadData) withObject:nil afterDelay:0.0f];
 
+}
+
+- (void)dealloc
+{
+    [self removeHeaderView];
+    [self removeFooterView];
+    
+    if(qtmquitView)
+    {
+        [qtmquitView release];
+        qtmquitView = nil;
+    }
+    
+    [super dealloc];
 }
 
 //＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
@@ -48,7 +63,9 @@
     if (_refreshHeaderView && [_refreshHeaderView superview]) {
         [_refreshHeaderView removeFromSuperview];
     }
-	_refreshHeaderView = [[EGORefreshTableHeaderView alloc] initWithFrame:
+    
+    if(!_refreshHeaderView)
+        _refreshHeaderView = [[EGORefreshTableHeaderView alloc] initWithFrame:
                           CGRectMake(0.0f, 0.0f - self.view.bounds.size.height,
                                      self.view.frame.size.width, self.view.bounds.size.height)];
     _refreshHeaderView.delegate = self;
@@ -56,6 +73,15 @@
 	[qtmquitView addSubview:_refreshHeaderView];
     
     [_refreshHeaderView refreshLastUpdatedDate];
+}
+
+- (void)removeHeaderView
+{
+    if(_refreshHeaderView)
+    {
+        [_refreshHeaderView release];
+        _refreshHeaderView = nil;
+    }
 }
 
 -(void)testFinishedLoadData{
@@ -97,7 +123,9 @@
     }else
 	{
         // create the footerView
-        _refreshFooterView = [[EGORefreshTableFooterView alloc] initWithFrame:
+        
+        if(!_refreshFooterView)
+            _refreshFooterView = [[EGORefreshTableFooterView alloc] initWithFrame:
                               CGRectMake(0.0f, height,
                                          qtmquitView.frame.size.width, self.view.bounds.size.height)];
         _refreshFooterView.delegate = self;
@@ -116,8 +144,10 @@
     if (_refreshFooterView && [_refreshFooterView superview])
 	{
         [_refreshFooterView removeFromSuperview];
+        [_refreshFooterView release];
+        _refreshFooterView = nil;
     }
-    _refreshFooterView = nil;
+    
 }
 
 //===============
